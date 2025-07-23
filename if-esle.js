@@ -3,6 +3,9 @@
 
 let userNum = prompt("Enter any number");
 
-if (userNum % 5) {
-    console.log("User Number is Multiple of 5");
+if (userNum % 5 == 0) {
+    console.log(`User Number ${userNum} is Multiple of 5`);
+} else {
+    console.log(`User Number ${userNum} is not Multiple of 5`)
 }
+

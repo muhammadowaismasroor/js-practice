@@ -1,7 +1,6 @@
 // Practice Question # 03
 // Get user to input a number using prompt("Enter a number"). Check if the number is multiple of 5 or not.
 
-
 console.log("Question No. 03 Answer");
 let userNum = prompt("Enter any number");
 

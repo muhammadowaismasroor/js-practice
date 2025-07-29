@@ -2,8 +2,8 @@
 // Print all even number form 0 to 100.
 
 console.log("Question No. 05 Answer");
-for (let i = 0; i <= 100; i++) {
-    if (i % 2 === 0) {
+ for (let i = 0; i <= 100; i++) {
+     if (i % 2 === 0) {
         console.log(`the value of ${i} is a even number`);
     }
 }
@@ -20,6 +20,8 @@ while (userNumber != guessNumber) {
     userNumber = prompt("guess again...")
 }
 console.log(`your guessing number ${guessNumber} which is correct`);
+
+
 
 
 

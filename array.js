@@ -5,7 +5,10 @@ console.log("Question No. 08 Answer");
 
 let stdMarks = [85, 97, 44, 37, 76, 60];
 let sum = 0;
-for (let stdMark of stdMarks) {
-    stdMark += sum;
+
+for (let val of stdMarks) {
+    sum += val;
 }
-console.log(sum)
+
+let avg = sum / stdMarks.length;
+console.log(`the average marks of students is ${avg}`);

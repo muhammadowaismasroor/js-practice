@@ -32,4 +32,4 @@ let arrow = (str) => {
         }
     }
 }
- arrow("ahmed")
+ arrow("ahmed");

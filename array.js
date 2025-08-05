@@ -25,3 +25,23 @@ for (let price of itemPrice) {
     let finalAmount = price - discount;
     console.log(`The amount of item before discount is ${price} and after discount is ${finalAmount}`);
 }
+
+// Practice Question # 10
+//Create an array to store companies -> "Bloomberg", "Microsoft", "Uber", "Google", "IBM", "Netflix"
+//a. Remove the first company of an array.
+//b. Remove Uber and Ola in its place.
+//c. Add Amazon at the end
+console.log("Question No. 10 Answer");
+
+let companies = ["Bloomberg", "Microsoft", "Uber", "Google", "IBM", "Netflix"];
+console.log("a. Remove the first company of an array.")
+companies.shift();
+console.log(companies);
+
+console.log("b. Remove the first company of an array.");
+companies.splice(1, 1, "Ola");
+console.log(companies);
+
+console.log("c. Add Amazon at the end");
+companies.push("Amazon");
+console.log(companies);

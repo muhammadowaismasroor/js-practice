@@ -24,3 +24,21 @@ console.log(Marks);
 //Use the reduce method to calculate products of all numbers in the array.
 
 console.log("Question No. 15 Answer");
+
+let userNo = parseInt(prompt("Enter any number"));
+let arr = []
+for (let i = 1; i <= userNo; i++) {
+    arr[i - 1] = i;
+}
+let sum = arr.reduce((pre, curr) => {
+    return (pre + curr);
+});
+console.log(sum);
+
+let products = arr.reduce((pre, curr) => {
+    return (pre * curr);
+});
+
+console.log(products);
+
+

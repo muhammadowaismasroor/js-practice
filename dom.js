@@ -3,13 +3,13 @@
 //  to this text using JS.
 
 //b. Create 3 div with common class name -"box". Access them & add some unique text to each of them.
-console.log("Question No. 16 Answer");
+console.log("Question No. 16 Answer (a)");
 let heading = document.querySelector("h2");
-heading.innerText = "Apna College Student";
+heading.innerText = heading.innerText + "form Apna College students"
 console.log(heading);
 
 
-console.log("Question No. 17 Answer");
+console.log("Question No. 16 Answer (b)");
 let divs = document.querySelectorAll("div");
 
 divs[0].innerText = "owais";

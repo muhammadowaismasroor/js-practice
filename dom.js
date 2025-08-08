@@ -26,7 +26,10 @@ btn.innerText = "click me";
 btn.style.backgroundColor = "red";
 btn.style.color = "white";
 
-document.querySelector("body");
+let body = document.querySelector("body");
+body.append(btn);
+
+
 console.log(btn);
 
 

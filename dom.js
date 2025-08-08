@@ -29,9 +29,18 @@ btn.style.color = "white";
 let body = document.querySelector("body");
 body.append(btn);
 
+// Practice Question # 18
+//Create a <p> tag in html, give it a class and some styling.
+//Now create a new class in CSS and try to append this class to the <p> element.
+//Did you notice, how you overwrite the class name when you add a new one.
+//Solve this problem using classList.
+console.log("Question No. 18 Answer (a)");
 
-console.log(btn);
-
+let para = document.querySelector(".para-q-18");
+para.getAttribute("class");
+// para.setAttribute("class", "new-class")
+para.classList.add("new-class")
+console.log(para)
 
 
 

@@ -8,12 +8,12 @@ let mode = true;
 
 btn.addEventListener("click", (e) => {
     if (mode === true) {
-        body.style.backgroundColor = "white";
-        body.style.color = "black";
-        mode = false;
-    } else {
         body.style.backgroundColor = "black";
         body.style.color = "white";
+        mode = false;
+    } else {
+        body.style.backgroundColor = "white";
+        body.style.color = "black";
         mode = true;
     }
 })

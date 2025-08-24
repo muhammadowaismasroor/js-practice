@@ -6,7 +6,7 @@ let body = document.querySelector("body");
 let btn = document.querySelector("#mode");
 let mode = true;
 
-btn.addEventListener("click", (e) => {
+btn.addEventListener("click", () => {
     if (mode === true) {
         body.style.backgroundColor = "black";
         body.style.color = "white";
